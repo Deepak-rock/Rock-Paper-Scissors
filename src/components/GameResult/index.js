@@ -23,14 +23,11 @@ const GameResult = props => {
       <ResultsContainer>
         <MyChoiceContainer>
           <MyChoiceText>YOU</MyChoiceText>
-          <MyChoiceImage src={myChoice[1]} alt={myChoice[0].toLowerCase()} />
+          <MyChoiceImage src={myChoice[1]} alt="your choice" />
         </MyChoiceContainer>
         <OpponentChoiceContainer>
           <OpponentText>OPPONENT</OpponentText>
-          <OpponentImage
-            src={opponentChoice.imageUrl}
-            alt={opponentChoice.id.toLowerCase()}
-          />
+          <OpponentImage src={opponentChoice.imageUrl} alt="opponent choice" />
         </OpponentChoiceContainer>
       </ResultsContainer>
       <ResultText>{resultMessage}</ResultText>

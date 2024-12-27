@@ -66,7 +66,7 @@ export const OpponentImage = styled.img`
     height: 200px;
   }
 `
-export const ResultText = styled.h2`
+export const ResultText = styled.p`
   color: #ffffff;
   font-size: 24px;
   line-height: 2;

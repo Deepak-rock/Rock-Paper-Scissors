@@ -54,7 +54,7 @@ class Game extends Component {
         showResult: true,
         myChoice: [id, image],
         opponentChoice: choicesList[number],
-        resultMessage: 'YOU LOSS',
+        resultMessage: 'YOU LOSE',
       }))
     } else if (choicesList[number].id === 'PAPER' && id === 'SCISSORS') {
       this.setState(prevState => ({
@@ -70,7 +70,7 @@ class Game extends Component {
         showResult: true,
         myChoice: [id, image],
         opponentChoice: choicesList[number],
-        resultMessage: 'YOU LOSS',
+        resultMessage: 'YOU LOSE',
       }))
     } else if (choicesList[number].id === 'SCISSORS' && id === 'ROCK') {
       this.setState(prevState => ({
